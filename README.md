@@ -15,6 +15,14 @@
   - [4. Add Poetry to the Path](#3-add-poetry-to-the-path)
   - [5. Reload Bash Configuration](#4-reload-bash-configuration)
   - [6. Verification](#5-verify-the-installation)
+  -⁠ ⁠[7. Git Leak Commands](#commands)  
+   - [Regular Git Scanning](#1-regular-git-scanning)  
+   - [Pre-commit Scanning (Not Tracking Staged Changes)](#2-pre-commit-scanning-not-tracking-staged-changes)  
+   - [Pre-commit Scanning (Tracking Staged Changes)](#3-pre-commit-scanning-tracking-staged-changes)  
+   - [Scanning Directory/File](#4-scanning-directoryfile)  
+   - [Scanning Piped Data](#5-scanning-piped-data) 
+   - [Run Gitleaks Scan and Generate Report](#6-run-gitleaks-scan-and-generate-report) 
+   
  
  ---
 
