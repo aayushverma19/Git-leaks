@@ -9,14 +9,8 @@
 - [1. Introduction](#introduction)
 - [2. Why Use GitLeaks?](#why-use-gitleaks)
 - [3. Installation](#installation)
-- [4. Example Scans](#example-scans)  
-   - [Running Git Leaks on Attendance API](#running-git-leaks-on-attendance-api)  
-   - [Running Git Leaks on Salary API](#running-git-leaks-on-salary-api)  
-   - [Running Git Leaks on Employee API](#running-git-leaks-on-employee-api)  
-   - [Running Git Leaks on Frontend Server](#running-git-leaks-on-frontend-server)  
-   - [Testing with Pre-commit Flag](#for-testing-made-some-changes-in-attendance-api-code-and-checked-using-pre-commit-flag)  
-   - [Generated Report](#generated-report)  
-6. [Conclusion](#conclusion)  
+- [4. Example Scans](#example-scans)
+- [5. Conclusion](#conclusion)  
 7. [Contact Information](#contact-information)  
 8. [References](#references)  
 
@@ -36,23 +30,16 @@ To install Gitleaks on your system, please follow the link below for the Gitleak
 
 # Example Scans
 
-### Running Git Leaks on Attendance API:
-![attendance api](./assets/gitleaks_attendance.png)
 
-### Running Git Leaks on Salary API:
-![attendance api](./assets/gitleaks_salary.png)
 
-### Running Git Leaks on Employee API:
-![attendance api](./assets/git_leaks_employee.png)
+### Running Git Leaks:
 
-### Running Git Leaks on Frontend Server:
-![attendance api](./assets/gitleaks_frontend.png)
 
-### For testing made some changes in Attendance API code and checked using pre commit flag:
-![pre-commit](./assets/gitleaks_precommit.png)
+### For testing made some changes in code and checked using pre commit flag:
+
 
 ### Generated report
-![report](./assets/gitleaks-json.png)
+
 
 
 # Conclusion
