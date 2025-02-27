@@ -1,4 +1,4 @@
-# Install Poetry Package POC
+# Install Gitleaks Package POC
 
 | **Author** | **Created on** | **Version** | **Last updated by**|**Last Edited On**|**Internal Reviewer** |**Reviewer L0** |**Reviewer L1** |**Reviewer L2** |
 |------------|---------------------------|-------------|----------------|-----|-------------|-------------|-------------|-------------|
@@ -69,6 +69,40 @@ gitleaks version
 ```
 
 ---
+
+## Commands
+
+### **1. Regular git scanning**
+```
+ gitleaks detect --source={repo} # OLD CMD
+ gitleaks git {repo} # NEW CMD
+```
+### **2. Pre-commit scanning (not tracking staged changes)**
+```
+gitleaks protect --source={repo} # OLD CMD
+gitleaks git --pre-commit {repo} # NEW CMD
+```
+### **3. Pre-commit scanning (tracking staged changes)**
+```
+gitleaks protect --staged --source={repo} # OLD CMD
+gitleaks git --pre-commit --staged {repo} # NEW CMD
+```
+### **4. Scanning directory/file**
+```
+gitleaks detect --no-git --source={repo} # OLD CMD
+gitleaks directory {directory/file} # NEW CMD
+```
+### **5. Scanning piped data**
+```
+gitleaks detect --no-git --pipe # OLD CMD
+gitleaks stdin # NEW CMD
+```
+
+### **6. Run Gitleaks Scan and Generate Report**
+```
+gitleaks detect -source={repo} --report-format=json --report-path={path} # OLD CMD
+gitleaks git {repo} -f {report format} -r {report path}
+```
 
 
 # Contact Information
