@@ -47,7 +47,7 @@ wget https://github.com/gitleaks/gitleaks/releases/download/v8.24.0/gitleaks_8.2
 ### **3. Extract Gitleaks Archive**
 
 ```bash
-    tar -xzvf gitleaks_8.24.0_linux_x64.tar.gz 
+tar -xzvf gitleaks_8.24.0_linux_x64.tar.gz 
 ```
 
 ---
@@ -57,7 +57,7 @@ wget https://github.com/gitleaks/gitleaks/releases/download/v8.24.0/gitleaks_8.2
 Move the Gitleaks binary to `/usr/local/bin/` to make it accessible system-wide:
 
 ```bash
- mv gitleaks /usr/local/bin/
+mv gitleaks /usr/local/bin/
 ```
 
 ---
