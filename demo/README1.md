@@ -36,13 +36,16 @@ GitLeaks is an open-source tool designed to detect hardcoded secrets like API ke
 
 # Installation
 •⁠  ⁠To install gitleaks follow the following command:-
-⁠ bash
+⁠
+``` bash
 wget https://github.com/gitleaks/gitleaks/releases/latest/download/gitleaks-linux-amd64
 chmod +x gitleaks-linux-amd64
 sudo mv gitleaks-linux-amd64 /usr/local/bin/gitleaks
  ⁠
 •⁠  ⁠wget → A command-line utility used to download files from the internet.
 •⁠  ⁠Moves the file to the system’s binary directory (/usr/local/bin/), so it can be run from anywhere using gitleaks instead of ./gitleaks-linux-amd64.
+
+```
 
 ![Install](./assets/gitleaks_install.png)
 
