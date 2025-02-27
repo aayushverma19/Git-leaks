@@ -33,7 +33,7 @@ sudo apt update
 ```
 Updates the list of available packages. Ensures you have the latest information about available software packages before installing anything.
 
-
+---
 
 ### **2. Install Gitleaks**
 Run the following command to install Gitleaks:
@@ -42,7 +42,7 @@ Run the following command to install Gitleaks:
 wget https://github.com/gitleaks/gitleaks/releases/download/v8.24.0/gitleaks_8.24.0_linux_x64.tar.gz
 ```
 
-
+---
 
 ### **3. Extract Gitleaks Archive**
 
@@ -50,7 +50,7 @@ wget https://github.com/gitleaks/gitleaks/releases/download/v8.24.0/gitleaks_8.2
 tar -xzvf gitleaks_8.24.0_linux_x64.tar.gz 
 ```
 
-
+---
 
 ### **4.  Move Gitleaks Binary to System Path**
 
@@ -60,6 +60,7 @@ Move the Gitleaks binary to `/usr/local/bin/` to make it accessible system-wide:
 mv gitleaks /usr/local/bin/
 ```
 
+---
 
 ### **5. Verify the Installation**
 
