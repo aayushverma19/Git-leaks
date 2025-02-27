@@ -11,8 +11,8 @@
 - [3. Installation](#installation)
 - [4. Example Scans](#example-scans)
 - [5. Conclusion](#conclusion)  
-7. [Contact Information](#contact-information)  
-8. [References](#references)  
+- [6.Contact Information](#contact-information)  
+- [7. References](#references)  
 
 
 # Introduction
