@@ -2,8 +2,8 @@
 
 | **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer** |     
 |-----------------------|----------------|-------------|----------------------------|-------------------|-----------------------|
-| Aman Raj      | 26-02-2025       | Version 1 | Aman Raj         | 26-02-2025       | Siddharth Pawar    |  
-| Aman Raj      | 26-02-2025       | Version 2 | Aman Raj         | 26-02-2025       | Siddharth Pawar    |  
+| Aayush Verma       | 26-02-2025       | Version 1 | Aayush Verma        | 26-02-2025       | Siddharth Pawar    |  
+| Aayush Verma       | 26-02-2025       | Version 2 | Aayush Verma         | 26-02-2025       | Siddharth Pawar    |  
 
 # Table of Content
 - [1. Introduction](#introduction)
@@ -46,10 +46,10 @@ To install Gitleaks on your system, please follow the link below for the Gitleak
 GitLeaks is a powerful and lightweight tool that helps prevent credential leaks by scanning Git repositories for secrets. By integrating it into your development workflow and CI/CD pipelines, you can enhance security and prevent unauthorized access to sensitive data.
 
 ##  Contact Information
-For any queries or further information, feel free to contact:
-| **Name**  | **Email**                       |
-|-----------------|-----------------------------------|
-| Aman | aman.raj@mygurukulam.co |
+
+| **Name**       | **Email Address**        |
+|----------------|--------------------------|
+| Aayush Verma   | <aayush.verma@mygurukulam.co> |
 
 ---
 ##  References
