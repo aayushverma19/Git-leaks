@@ -6,16 +6,10 @@
 | Aman Raj      | 26-02-2025       | Version 2 | Aman Raj         | 26-02-2025       | Siddharth Pawar    |  
 
 # Table of Content
-1. [Introduction](#introduction)  
-2. [Why Use GitLeaks?](#why-use-gitleaks)  
-3. [Installation](#installation)  
-4. [Git Leak Commands](#commands)  
-   - [Regular Git Scanning](#1-regular-git-scanning)  
-   - [Pre-commit Scanning (Not Tracking Staged Changes)](#2-pre-commit-scanning-not-tracking-staged-changes)  
-   - [Pre-commit Scanning (Tracking Staged Changes)](#3-pre-commit-scanning-tracking-staged-changes)  
-   - [Scanning Directory/File](#4-scanning-directoryfile)  
-   - [Scanning Piped Data](#5-scanning-piped-data)  
-5. [Example Scans](#example-scans)  
+- [1. Introduction](#introduction)
+- [2. Why Use GitLeaks?](#why-use-gitleaks)
+- [3. Installation](#installation)
+- [4. Example Scans](#example-scans)  
    - [Running Git Leaks on Attendance API](#running-git-leaks-on-attendance-api)  
    - [Running Git Leaks on Salary API](#running-git-leaks-on-salary-api)  
    - [Running Git Leaks on Employee API](#running-git-leaks-on-employee-api)  
@@ -37,45 +31,8 @@ GitLeaks is an open-source tool designed to detect hardcoded secrets like API ke
 - **Lightweight & Efficient:** Simple CLI tool with regex-based scanning.
 
 # Installation
-- To install gitleaks follow the following command:-
-```bash
-wget https://github.com/gitleaks/gitleaks/releases/latest/download/gitleaks-linux-amd64
-chmod +x gitleaks-linux-amd64
-sudo mv gitleaks-linux-amd64 /usr/local/bin/gitleaks
-```
-- *wget* → A command-line utility used to download files from the internet.
-- Moves the file to the system’s binary directory (/usr/local/bin/), so it can be run from anywhere using gitleaks instead of ./gitleaks-linux-amd64.
 
-![Install](./assets/gitleaks_install.png)
-
-# Commands
-
-## 1. Regular git scanning
-```
- gitleaks detect --source={repo} # OLD CMD
- gitleaks git {repo} # NEW CMD
-```
-## 2. Pre-commit scanning (not tracking staged changes)
-```
-gitleaks protect --source={repo} # OLD CMD
-gitleaks git --pre-commit {repo} # NEW CMD
-```
-## 3. Pre-commit scanning (tracking staged changes)
-```
-gitleaks protect --staged --source={repo} # OLD CMD
-gitleaks git --pre-commit --staged {repo} # NEW CMD
-```
-## 4. Scanning directory/file
-```
-gitleaks detect --no-git --source={repo} # OLD CMD
-gitleaks directory {directory/file} # NEW CMD
-```
-## 5. Scanning piped data
-```
-gitleaks detect --no-git --pipe # OLD CMD
-gitleaks stdin # NEW CMD
-```
-
+To install Gitleaks on your system, please follow the link below for the Gitleaks Installation Guide. :- [Gitleaks Installation Guide]()
 
 # Example Scans
 
