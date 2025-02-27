@@ -1,8 +1,8 @@
 # Install Gitleaks Package POC
 
-| **Author** | **Created on** | **Version** | **Last updated by**|**Last Edited On**|**Internal Reviewer** |**Reviewer L0** |**Reviewer L1** |**Reviewer L2** |
-|------------|---------------------------|-------------|----------------|-----|-------------|-------------|-------------|-------------|
-| Aayush Verma|   13-02-2025             | v1          | Aayush Verma   | 18-02-2025   |  Komal Jaiswal | Akshit kapil | Taranddeep | Abhishek  Dubey|
+| **Author** | **Created on** | **Version** | **Last updated by**|**Last Edited On**|**Level** |**Reviewer** |
+|------------|---------------------------|-------------|----------------|-----|-------------|-------------|
+| Aayush Verma|   26-02-2025             | v1          | Aayush Verma   |26-02-2025    |  Internal Reviewer | Komal Jaiswal |
 
 
 ---
@@ -19,7 +19,7 @@
  ---
 
 ## **Introduction**
-Poetry is designed to streamline Python project management. With its modern approach, you can manage dependencies, handle virtual environments, and simplify project configuration all in one tool. This guide will walk you through installing Poetry on Linux and setting up a simple Proof of Concept (POC) project to demonstrate its features.
+GitLeaks is an open-source tool designed to detect hardcoded secrets like API keys, passwords, and tokens in Git repositories. This document provides a proof of concept (POC) demonstrating how GitLeaks can be used to scan repositories and prevent credential leaks.
 
 ---
 
