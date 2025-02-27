@@ -2,8 +2,6 @@
 
 | *Author*            | *Created on* | *Version* | *Last updated by*       | *Last edited on* | *Reviewer* |     
 |-----------------------|----------------|-------------|----------------------------|-------------------|-----------------------|
-| Aman Raj      | 26-02-2025       | Version 1 | Aman Raj         | 26-02-2025       | Siddharth Pawar    |  
-| Aman Raj      | 26-02-2025       | Version 2 | Aman Raj         | 26-02-2025       | Siddharth Pawar    |  
 
 # Table of Content
 1.⁠ ⁠[Introduction](#introduction)  
@@ -105,7 +103,6 @@ GitLeaks is a powerful and lightweight tool that helps prevent credential leaks 
 For any queries or further information, feel free to contact:
 | *Name*  | *Email*                       |
 |-----------------|-----------------------------------|
-| Aman | aman.raj@mygurukulam.co |
 
 ---
 ##  References
