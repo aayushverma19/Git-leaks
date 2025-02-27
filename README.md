@@ -101,7 +101,7 @@ gitleaks stdin # NEW CMD
 ### **6. Run Gitleaks Scan and Generate Report**
 ```
 gitleaks detect -source={repo} --report-format=json --report-path={path} # OLD CMD
-gitleaks git {repo} -f {report format} -r {report path}
+gitleaks git {repo} -f {report format} -r {report path} # NEW CMD
 ```
 
 
