@@ -3,7 +3,7 @@
 | **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer** |     
 |-----------------------|----------------|-------------|----------------------------|-------------------|-----------------------|
 | Aayush Verma       | 26-02-2025       | Version 1 | Aayush Verma        | 26-02-2025       | Siddharth Pawar    |  
-| Aayush Verma       | 26-02-2025       | Version 2 | Aayush Verma         | 26-02-2025       | Siddharth Pawar    |  
+
 
 # Table of Content
 - [1. Introduction](#introduction)
