@@ -2,8 +2,7 @@
 
 | **Author**            | **Created on** | **Version** | **Last updated by**       | **Last edited on** | **Reviewer**      
 |-----------------------|----------------|-------------|----------------------------|---------------------|-------------------|
-| Aman Raj      | 25-02-2025       | Version 1 | Aman Raj         | 25-02-2025       | Siddharth Pawar    |  
-| Aman Raj      | 25-02-2025       | Version 2 | Aman Raj         | 26-02-2025       | Siddharth Pawar    |  
+
 
 # Table of Content
 1. [Introduction](#introduction)
@@ -88,7 +87,7 @@ Credential scanning is essential for preventing security breaches caused by expo
 For any queries or further information, feel free to contact:
 | **Name**  | **Email**                       |
 |-----------------|-----------------------------------|
-| Aman | aman.raj@mygurukulam.co |
+
 
 ---
 ## References
