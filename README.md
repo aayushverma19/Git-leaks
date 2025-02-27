@@ -10,12 +10,11 @@
 ## **Table of Contents**
 
   - [1. Introduction](#introduction)
-  - [2. Pre Installation](#pre-installation-checklist)
-  - [3. Update Package List](#1-update-package-list)
-  - [4. Install Poetry](#2-install-poetry)
-  - [5. Add Poetry to the Path](#3-add-poetry-to-the-path)
-  - [6. Reload Bash Configuration](#4-reload-bash-configuration)
-  - [7. Verification](#5-verify-the-installation)
+  - [2. Update Package List](#1-update-package-list)
+  - [3. Install Poetry](#2-install-poetry)
+  - [4. Add Poetry to the Path](#3-add-poetry-to-the-path)
+  - [5. Reload Bash Configuration](#4-reload-bash-configuration)
+  - [6. Verification](#5-verify-the-installation)
  
  ---
 
@@ -24,33 +23,11 @@ Poetry is designed to streamline Python project management. With its modern appr
 
 ---
 
-## **How to Install Poetry on Linux**
-
-### **Pre-Installation Checklist**
-
-1. **Ensure Python is Installed:** Poetry requires **Python 3.7 or later**. Check your Python version:
-   ```bash
-   python3 --version
-   ```
-   If Python is not installed, refer to [Python's installation guide](https://github.com/snaatak-Zero-Downtime-Crew/Documentation/blob/Aayush-SCRUM-2/Common/Software/python/Installation/README.md).
-
-2. **Install `curl`:** Poetry's installation script uses `curl`. Verify its availability:
-   ```bash
-   curl --version
-   ```
-   If `curl` is not installed, you can add it with:
-   ```bash
-   sudo apt install curl
-   ```
-
-3. **Check System Requirements:** Ensure your Linux distribution meets the prerequisites for Poetry's installation script.
-
----
-
 ## Step-by-step installation of Poetry
 
 
 ### **1. Update Package List**
+
 ```bash
 sudo apt update
 ```
@@ -58,43 +35,38 @@ Updates the list of available packages. Ensures you have the latest information 
 
 ---
 
-### **2. Install Poetry**
-Run the following command to install Poetry:
+### **2. Install Gitleaks**
+Run the following command to install Gitleaks:
+
 ```bash
-curl -sSL https://install.python-poetry.org | python3 -
-```
-
-This script will install Poetry in `$HOME/.local/bin` by default.
-
----
-
-### **3. Add Poetry to the PATH**
-Make the `poetry` command globally accessible by adding it to your system's PATH:
-```bash
-export PATH="$HOME/.local/bin:$PATH"
-```
-
-To make this change persistent, append the command to your shell configuration file (`.bashrc` or `.zshrc`):
-```bash
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+wget https://github.com/gitleaks/gitleaks/releases/download/v8.24.0/gitleaks_8.24.0_linux_x64.tar.gz
 ```
 
 ---
 
-### **4. Reload Bash Configuration**
-Apply the changes by reloading your shell configuration file:
+### **3. Extract Gitleaks Archive**
+
 ```bash
-source ~/.bashrc
+    tar -xzvf gitleaks_8.24.0_linux_x64.tar.gz 
+```
+
+---
+
+### **4.  Move Gitleaks Binary to System Path**
+
+Move the Gitleaks binary to `/usr/local/bin/` to make it accessible system-wide:
+
+```bash
+ mv gitleaks /usr/local/bin/
 ```
 
 ---
 
 ### **5. Verify the Installation**
-Check if Poetry is installed correctly:
+
 ```bash
-poetry --version
+gitleaks version
 ```
-You should see the installed version number, confirming the setup.
 
 ---
 
@@ -109,4 +81,4 @@ You should see the installed version number, confirming the setup.
 
 | **Link**                                                                                                                     | **Description**                   |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| [How to install Poetry](https://medium.com/@akshatgadodia/mastering-poetry-commands-unlocking-the-full-power-of-python-poetry-8363f347beb5) | Python installation  |
+| [How to install Gitleaks]() | Gitleaks installation  |
