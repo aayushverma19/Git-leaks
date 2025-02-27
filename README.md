@@ -115,4 +115,5 @@ gitleaks git {repo} -f {report format} -r {report path} # NEW CMD
 
 | **Link**                                                                                                                     | **Description**                   |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| [How to install Gitleaks]() | Gitleaks installation  |
+| [How to install Gitleaks](https://github.com/gitleaks/gitleaks) | Gitleaks installation  |
+| [Link](https://gist.github.com/zricethezav/b325bb93ebf41b9c0b0507acf12810d2) | GitLeaks Updated Commands |
